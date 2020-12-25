@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["whiteCcinn <471113744@qq.com>"]
 edition = "2018"
 description = "A sensitive lexicon"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
 
 [dependencies]
 lazy_static="1.4.0"
