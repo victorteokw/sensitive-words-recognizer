@@ -5,6 +5,9 @@ authors = ["whiteCcinn <471113744@qq.com>"]
 edition = "2018"
 description = "A sensitive lexicon"
 license = "MIT"
+repository = "https://github.com/whiteCcinn/sensitive-words-recognizer"
+keywords = ["sensitive"]
+readme = "README.md"
 
 [dependencies]
 lazy_static="1.4.0"
