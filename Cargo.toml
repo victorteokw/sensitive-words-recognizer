@@ -1,11 +1,11 @@
 [package]
-name = "sensitive-words-recognizer"
-version = "0.1.1"
-authors = ["whiteCcinn <471113744@qq.com>"]
-edition = "2018"
+name = "sensitive-words-recognizer-new"
+version = "0.2.0"
+authors = ["whiteCcinn <471113744@qq.com>", "Victor Teo <victor.teo@fillmula.com>"]
+edition = "2021"
 description = "A sensitive lexicon"
 license = "MIT"
-repository = "https://github.com/whiteCcinn/sensitive-words-recognizer"
+repository = "https://github.com/victorteokw/sensitive-words-recognizer"
 keywords = ["sensitive"]
 readme = "README.md"
 
