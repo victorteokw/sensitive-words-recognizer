@@ -1,6 +1,6 @@
 [package]
 name = "sensitive-words-recognizer-new"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["whiteCcinn <471113744@qq.com>", "Victor Teo <victor.teo@fillmula.com>"]
 edition = "2021"
 description = "A sensitive lexicon"
@@ -10,4 +10,4 @@ keywords = ["sensitive"]
 readme = "README.md"
 
 [dependencies]
-lazy_static="1.4.0"
+once_cell="1.18.0"

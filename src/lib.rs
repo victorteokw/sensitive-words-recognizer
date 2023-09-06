@@ -3,18 +3,13 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::io::prelude::*;
 use std::io::BufReader;
-
 use std::str::Chars;
+use once_cell::sync::Lazy;
 
-#[macro_use]
-extern crate lazy_static;
-
-lazy_static! {
-    static ref SENSITIVE_WORD_MAP: HashMap<char, SensitiveWordMap> = {
-        let set = read_sensitive_word_file("sensitive.txt");
-        build_sensitive_word_map(set)
-    };
-}
+static SENSITIVE_WORD_MAP: Lazy<HashMap<char, SensitiveWordMap>> = Lazy::new(|| {
+    let set = read_sensitive_word_file("sensitive.txt");
+    build_sensitive_word_map(set)
+});
 
 pub enum MatchType {
     MinMatchType,
